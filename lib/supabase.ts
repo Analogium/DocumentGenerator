@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Get the environment variables
-const supabaseUrl = 'https://zzmgvdecorrxanstafwn.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6bWd2ZGVjb3JyeGFuc3RhZnduIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA5OTc4MzgsImV4cCI6MjA1NjU3MzgzOH0.wFYVZta3j4TRvsNq6rVj4tdDIgJFxEN7QMkY6ebL22Y';
+const supabaseUrl = '';
+const supabaseAnonKey = '';
 
 // Create a single supabase client for interacting with your database
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
